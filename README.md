@@ -6,6 +6,44 @@ A complete, **100% private, local AI coding environment** optimized for Apple Si
 
 ---
 
+## 🤔 **What is OpenCode?**
+
+**OpenCode** is an AI coding agent that runs in your terminal - similar to Claude Code, GitHub Copilot, or Cursor, but with a key difference: **you control which AI model it uses**.
+
+### How It Compares
+
+| Feature | OpenCode (Your Setup) | Claude Code | GitHub Copilot |
+|---------|----------------------|-------------|----------------|
+| **Where it runs** | Terminal | Terminal/IDE/Web | IDE only |
+| **Model** | Local (Ollama) | Claude (cloud) | GPT (cloud) |
+| **Privacy** | 100% local | Cloud-based | Cloud-based |
+| **Cost** | Free (after setup) | Subscription | Subscription |
+| **Offline** | ✅ Yes | ❌ No | ❌ No |
+
+### What Makes This Setup Special
+
+**Model Flexibility** - OpenCode supports 75+ AI providers:
+- Local models (your setup: Bonsai, Devstral via Ollama)
+- OpenAI (GPT-4, GPT-3.5)
+- Anthropic (Claude)
+- Google (Gemini)
+- And 70+ others
+
+**Your Configuration**: 100% local models via Ollama - no cloud, no API keys, completely private.
+
+### What Can OpenCode Do?
+
+✅ Write and refactor code  
+✅ Debug and fix errors  
+✅ Explain complex codebases  
+✅ Generate tests  
+✅ Multi-file editing  
+✅ Follow your coding style  
+
+**Bottom Line**: OpenCode gives you a **private, local alternative** to cloud-based AI coding tools like Claude Code, GitHub Copilot, and Cursor.
+
+---
+
 ## 🚀 **Quick Start**
 
 ```bash
