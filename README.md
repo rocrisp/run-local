@@ -44,6 +44,47 @@ A complete, **100% private, local AI coding environment** optimized for Apple Si
 
 ---
 
+## 🔗 **Why You Need Both OpenCode AND Ollama**
+
+They serve different roles:
+
+**OpenCode** = The AI coding agent (the **interface**)
+- Understands your coding requests
+- Manages conversation context
+- Edits files, runs commands
+- Coordinates the workflow
+
+**Ollama** = The AI model runtime (the **engine**)
+- Actually runs the AI models (Bonsai, Devstral)
+- Does the inference (thinking/generating responses)
+- Serves models via local API
+
+### How They Work Together
+
+```
+You type: "Add error handling to this function"
+   ↓
+OpenCode (receives request, reads your code)
+   ↓
+Ollama API (http://localhost:11434)
+   ↓
+AI Model (Bonsai or Devstral thinks and generates code)
+   ↓
+Ollama (sends response back)
+   ↓
+OpenCode (applies changes to your files)
+```
+
+### Simple Analogy
+
+- **OpenCode** = Music player app (Spotify)
+- **Ollama** = Speaker system (plays the sound)
+- **Models** = The songs (Bonsai, Devstral)
+
+You need all three: the interface, the engine, and the content.
+
+---
+
 ## 🚀 **Quick Start**
 
 ```bash
