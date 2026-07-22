@@ -1,0 +1,14 @@
+# Build artifacts
+bin/
+obj/
+logs/
+config/
+*.o
+*.exe
+*.out
+
+# Claude Code working directory
+.claude/
+
+# macOS
+.DS_Store

@@ -1,0 +1,8 @@
+FROM qwen2.5-coder:7b
+
+# Set context window to 32K for OpenCode agentic features
+PARAMETER num_ctx 32768
+
+# Optimize for coding tasks
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9

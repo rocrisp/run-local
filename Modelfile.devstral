@@ -1,0 +1,9 @@
+FROM devstral-small-2:24b
+
+# Set 32K context window for OpenCode compatibility
+PARAMETER num_ctx 32768
+
+# Optimized parameters for coding
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.1
