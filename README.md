@@ -64,15 +64,22 @@ They serve different roles:
 ```
 You type: "Add error handling to this function"
    ↓
-OpenCode (receives request, reads your code)
+OpenCode (receives request, reads your code, gathers context:
+          - Scans file structure
+          - Reads related files
+          - Checks git status
+          - Reviews conversation history
+          - Formats everything into a prompt)
    ↓
 Ollama API (http://localhost:11434)
    ↓
-AI Model (Bonsai or Devstral thinks and generates code)
+AI Model (Bonsai or Devstral processes the prompt,
+          reasons about the code, generates solution)
    ↓
-Ollama (sends response back)
+Ollama (sends response back to OpenCode)
    ↓
-OpenCode (applies changes to your files)
+OpenCode (parses the response, applies changes to files,
+          updates conversation history, shows you the diff)
 ```
 
 ### Simple Analogy
